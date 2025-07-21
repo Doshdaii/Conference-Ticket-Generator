@@ -1,0 +1,118 @@
+.content-form {
+  display: flex;
+  max-width: 460px;
+  height: auto;
+  margin-top: 40px;
+}
+.content-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+form label {
+  color: white;
+}
+input.image {
+  padding: 20px;
+}
+.upload-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.upload-content p {
+  display: flex;
+  gap: 5px;
+}
+.image-content {
+  width: 100%;
+  border: 2px dashed var(--neutral700);
+  padding: 12px 16px;
+  height: 120px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--neutral900);
+}
+.image-content:hover{
+  cursor: pointer;
+}
+.image-content:focus{
+  outline: 1px solid var(--neutral500);
+  outline-offset: 2px;
+}
+.image-content img {
+  width: 50px;
+  height: 50px;
+}
+.image-content input {
+  display: none;
+ 
+}
+.change-file{
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+.anchor{
+  color: white;
+  padding: 4px 8px;
+  background: var(--neutral700);
+  border-radius: 4px;
+  
+}
+.preview-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  border: 1px solid var(--neutral500);
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+.inputs label {
+  margin-bottom: 10px;
+}
+.inputs input,
+button {
+  height: 50px;
+}
+.inputs input {
+  border: 1px solid var(--neutral700);
+  background: transparent;
+  border-radius: 12px;
+  color: white;
+  padding: 10px;
+}
+.inputs input::placeholder{
+  color: var(--neutral300);
+}
+
+.inputs input:hover{
+  cursor: pointer;
+}
+.inputs input:focus{
+  outline: 1px solid var(--neutral500);
+  outline-offset: 2px;
+}
+button {
+  border-radius: 12px;
+  background-color: var(--orange500);
+  font-weight: 600;
+  border-color: transparent;
+}
+button:hover{
+  cursor: pointer;
+}
+button:focus{
+  outline: 1px solid var(--neutral300);
+  outline-offset:2px ;
+}
+
+
+

@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* neutral */
+  --neutral900: #0d082d;
+  --neutral700: #4b4869;
+  --neutral500: #8784a5;
+  --neutral300: #d1d0d5;
+  --neutral0: #ffffff;
+
+  /* Orange */
+  --orange700: #e1604f;
+  --orange500: #f57463;
+  --orangegradient: linear-gradient(90deg, #f37362 0%, #fff 100%);
+}

@@ -1,0 +1,9 @@
+.content-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content-top img {
+    margin-top: 30px;
+  }
+  

@@ -1,0 +1,22 @@
+.main-container {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  font-family: "Inconsolata", monospace;
+  overflow: hidden;
+}
+.contents {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 360px) and (max-width: 767px) {
+  .main-container{
+    background-image: url(../../src/assets/images/background-mobile.png);
+  }
+  
+}
